@@ -1,0 +1,51 @@
+{
+  "name": "weekday-test",
+  "version": "0.1.0",
+  "description": "Readable weekday and time helpers for testing business rules that depend on the day of the week.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "bun test",
+    "prepublishOnly": "bun run build && bun run test"
+  },
+  "keywords": [
+    "testing",
+    "date",
+    "weekday",
+    "time",
+    "business-rules"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OWNER/weekday-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OWNER/weekday-test/issues"
+  },
+  "homepage": "https://github.com/OWNER/weekday-test#readme",
+  "sideEffects": false,
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsup": "^9.0.0",
+    "typescript": "6.0.3"
+  }
+}
