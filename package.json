@@ -1,6 +1,6 @@
 {
   "name": "weekday-helpers",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Readable weekday and time helpers for testing business rules that depend on the day of the week.",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -36,12 +36,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CaioAugustobrg/weekday-test.git"
+    "url": "git+https://github.com/CaioAugustobrg/weekday-helpers.git"
   },
   "bugs": {
-    "url": "https://github.com/CaioAugustobrg/weekday-test/issues"
+    "url": "https://github.com/CaioAugustobrg/weekday-helpers/issues"
   },
-  "homepage": "https://github.com/CaioAugustobrg/weekday-test#readme",
+  "homepage": "https://github.com/CaioAugustobrg/weekday-helpers#readme",
   "sideEffects": false,
   "devDependencies": {
     "@types/node": "^26.6.6",
