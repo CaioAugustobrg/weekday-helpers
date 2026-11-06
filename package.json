@@ -1,6 +1,6 @@
 {
   "name": "weekday-test",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Readable weekday and time helpers for testing business rules that depend on the day of the week.",
   "type": "module",
   "main": "./dist/index.cjs",
